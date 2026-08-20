@@ -10,7 +10,6 @@
 !.gitattributes
 
 # Approved canonical portfolio documentation
-!AGENTS.md
 !portfolio-change-log.md
 !portfolio-ideation-log.md
 !portfolio-production-log-instructions.md
@@ -29,10 +28,11 @@
 generated/*
 !generated/portfolio-ideation.json
 
-# Secrets are NEVER tracked
+# Secret show stuff - not for the peeps
 .env
 .env.*
 !.env.example
+AGENTS.md
 
 # Python generated files
 __pycache__/
@@ -40,3 +40,4 @@ __pycache__/
 
 # Local diagnostics
 tools/notion-error.txt
+AGENTS.md
