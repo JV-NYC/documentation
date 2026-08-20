@@ -1,6 +1,9 @@
 # DENY BY DEFAULT
 *
 
+# The readme file
+!README.md
+
 # Repository controls
 !.gitignore
 !.env.example
