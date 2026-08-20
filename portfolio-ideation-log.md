@@ -1,5 +1,11 @@
 ## Wednesday, August 19, 2026
 
+## Rights and reuse
+
+This log contains original concepts, creative directions, research ideas, experiments, and works in progress. It is publicly available for viewing and reference, but its contents are not licensed for reuse, redistribution, modification, publication, or the creation of derivative works unless explicitly stated otherwise.
+
+See the repository root `LICENSE` file for the governing terms.
+
 ### Asset production
 
 <!-- idea-id: 20260819-000001 -->
