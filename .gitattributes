@@ -1,0 +1,9 @@
+# Normalize text files and keep repository line endings as LF
+* text=auto
+
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.env.example text eol=lf

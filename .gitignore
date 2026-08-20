@@ -4,6 +4,7 @@
 # Repository controls
 !.gitignore
 !.env.example
+!.gitattributes
 
 # Approved canonical portfolio documentation
 !AGENTS.md
