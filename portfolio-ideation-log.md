@@ -1,4 +1,6 @@
-## A place to capture ideas for the portfolio
+## Purpose
+
+This log is a public-readable record of ideas being considered for my portfolio: questions, references, possible directions, and unfinished concepts. These entries are exploratory, not commitments. Ideas may evolve, combine, move into production, or be abandoned.
 
 ### 2026-08-18 | What if the portfolio is a place?
 
