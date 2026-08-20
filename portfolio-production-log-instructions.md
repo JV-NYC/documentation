@@ -58,27 +58,6 @@ The canonical record remains chronological. Do not reorganize entries by topic.
 
 Notion may later provide filtered or alternate views, but the Markdown file should preserve the historical sequence of the work.
 
-## Voice
-
-All narrative prose must follow `voice-principles.md`.
-
-Treat that file as the canonical writing-style specification.
-
-In particular:
-
-- preserve the movement of the thinking
-- lead with the point
-- preserve uncertainty where it existed
-- use concrete examples where useful
-- retain changes of mind and failed approaches
-- avoid corporate or consultancy language
-- avoid generic AI phrasing
-- do not over-polish the process
-- do not convert ordinary production work into inflated design rhetoric
-- never use an em dash
-
-The diary may eventually be public. Write clearly enough that an outside reader can understand what happened, but do not sanitize the work into a retrospective success story.
-
 ## Date and entry headings
 
 Each calendar date appears once as a level-two heading:
