@@ -4,6 +4,9 @@
 # The readme file
 !README.md
 
+# My bio
+!bio.md
+
 # Repository controls
 !.gitignore
 !.env.example
