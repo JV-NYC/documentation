@@ -1,317 +1,377 @@
-## Purpose
+## Wednesday, August 19, 2026
 
-This log is a public-readable record of ideas being considered for my portfolio: questions, references, possible directions, and unfinished concepts. These entries are exploratory, not commitments. Ideas may evolve, combine, move into production, or be abandoned.
+### Visual world
 
-### 2026-08-18 | What if the portfolio is a place?
+**Status:** Direction
 
-**Status:** Exploration  
-**Areas:** World, Interaction, Navigation  
-**Tags:** `world`, `exploration`, `navigation`
+**Idea:** Build the world as an authored 2D layered scene rather than a 3D environment or miniature video game. A diorama may be the useful model: foreground, middle ground, and distant elements such as water, structures, people, mechanical objects, light, and fog, with small movements occurring at different depths.
 
-I keep coming back to the idea that the portfolio does not have to feel like a stack of pages.
+---
 
-There is still a portfolio underneath all of this. Case studies, research, writing, prototypes, actual evidence. That part cannot disappear. But the layer around it could behave more like a small place that someone enters and explores.
+### Visual world
 
-Not a game, exactly. I do not want quests, achievements, inventories, XP, or a HUD wrapped around my work. What interests me is the psychology of moving through a game world: arriving somewhere, orienting yourself, noticing something in the distance, wondering what it is, and deciding to go look.
+**Status:** Exploration
 
-That suggests a different question than "How should I organize the homepage?"
+**Idea:** Let the visual language sit somewhere between an illustrated adventure, theatrical staging, and a physical diorama. The territory should remain broad for now rather than collapsing too early into a style guide.
 
-Maybe the better question is: **What makes someone wonder what is over there?**
+---
 
-The distinction feels important. The world is not the content. It is a way of encountering the content.
+### Visual world
 
-**Open question:** How far can I push exploration before the portfolio starts making people work too hard to find the actual work?
+**Status:** Reference
 
+**Idea:** *Machinarium* is useful as a reference for environments that carry information and objects that seem to belong where they are, not as a drawing style to reproduce.
 
-### 2026-08-18 | A map instead of a menu?
+---
 
-**Status:** Exploration  
-**Areas:** Navigation, World, References  
-**Tags:** `map`, `navigation`, `cartography`
+### Motion
 
-If the portfolio becomes a place, a map starts making more sense.
+**Status:** Reference
 
-I am interested in maps from games, particularly *The Witcher 3* and *Assassin's Creed*, but also in the hand-drawn Middle-earth maps associated with Christopher Tolkien. These are very different objects, but they share something useful. They suggest that destinations exist in relationship to one another.
+**Idea:** *Darkest Dungeon* is useful for staging and transitions that feel theatrical without requiring everything on screen to move continuously.
 
-A conventional website menu says: here are six things you can click.
+---
 
-A map says: these places are somewhere.
+### Motion
 
-That small difference may be enough to create curiosity.
+**Status:** Principle
 
-I do not think this means the portfolio needs to become fantasy-themed. I am much more interested in the map as a navigational idea than as an aesthetic costume. Distance, location, orientation, paths, things partially revealed. Those are useful.
+**Idea:** Alive, not animated. Stillness should be the default state, and motion should be an event rather than a constant demonstration that the website can move.
 
-There should still be conventional navigation. Hiding case studies because I became enamored with cartography would be a fairly spectacular own goal.
+---
 
-**Open questions:**
+### Motion
 
-- Is the map the main navigation device or something secondary?
-- Does it represent a real geography inside the portfolio world?
-- Could it appear only at certain moments, perhaps as a transition or orientation device?
-- How much information should it reveal before exploration turns back into a menu?
+**Status:** Exploration
 
+**Idea:** Use sparse, varied movement: a flag changing silhouette, a page lifting slightly, a chime swinging, water shifting between a few states, a crab appearing and disappearing, a distant wheel taking two minutes to turn, or fog moving almost imperceptibly. The interesting response may be, "Wait. Did that just move?"
 
-### 2026-08-18 | Character without character design
+---
 
-**Status:** Exploration  
-**Areas:** Character, World, Visual Language  
-**Tags:** `character`, `rpg`, `archetypes`
+### Interaction
 
-If people appear in this world, I do not want to build a cast of literal fantasy characters.
+**Status:** Principle
 
-I do like the legibility of old RPG archetypes: mage, fighter, priest, rogue. They are readable almost instantly. The interesting question is how little information is required to suggest one.
+**Idea:** Reward attention without training visitors to mouse over everything in search of animation. A place can occasionally reveal itself without making every detail advertise that it is interactive.
 
-Maybe it is just a staff.
+---
 
-Maybe a sword.
+### Motion
 
-Maybe the silhouette does most of the work and one object does the rest.
+**Status:** Principle
 
-That feels much more useful than putting someone in a full costume and announcing that this is The Mage. The reference can sit quietly in the background for people who notice it and mean nothing at all to people who do not.
+**Idea:** Different things should live on different clocks. Water, people, machinery, weather, creatures, and sound need not move together or wait for the visitor to trigger them.
 
-This may turn out to be unnecessary. I am keeping it because the broader idea feels useful: **recognition can happen through one small cue rather than a pile of explanation.**
+---
 
+### Motion
 
-### 2026-08-18 | The Low-Tide Signal Station
+**Status:** Exploration
 
-**Status:** Exploration  
-**Areas:** World, Environment, Visual Language, Navigation  
-**Tags:** `low-tide`, `signal-station`, `causeway`, `environmental-storytelling`
+**Idea:** Some events might happen every visit, some only occasionally, and some so slowly that a visitor never sees the complete event. This reverses the usual pressure in web animation to make sure every movement gets noticed.
 
-The first world image that really started to hold together is a place I have been calling the **Low-Tide Signal Station & Causeway**.
+---
 
-A small station sits on a coastal terrace or spit. Stone and timber. Some kind of acoustic or optical apparatus. Counterweights, suspended equipment, perhaps copper cones that lower toward or into the water. Nearby, a traveler carries something like a surveyor's staff.
+### Motion
 
-A stone causeway leads away from the station.
+**Status:** Open Question
 
-There is a restrained orange marker somewhere along the route.
+**Idea:** How much can someone miss before subtlety becomes invisibility?
 
-Farther out, barely explained, is a skeletal scaffold or wheel-like structure.
+---
 
-The composition started producing a very simple visual sequence:
+### Visual world
 
-**station → traveler → causeway → distant structure**
+**Status:** Exploration
 
-And that gave me the question I was looking for:
+**Idea:** Let visits vary through morning and evening, weather, tide or water state, fog, wind, distant machinery, and occasional chimes. The point is not to simulate a complete climate system, but to suggest that the place continues to exist when nobody is looking at it.
 
-**What is over there?**
+---
 
-That may matter more than any of the individual objects.
+### Interaction
 
-I do not yet know what the station is, what it measures, why the traveler is there, or what the distant structure does. I am not sure I need to know. At least not yet. Explaining it too quickly might kill the thing that makes it interesting.
+**Status:** Exploration
 
-This is an early reference and test environment, not a locked homepage design. I want to keep that distinction explicit. The useful part may ultimately be the spatial logic and the feeling of implied purpose, even if the signal station itself disappears later.
+**Idea:** Environmental variation could reward repeat visits and create memory without relying on collectibles, achievements, or other explicit game mechanics.
 
-#### AI process note
+---
 
-**Role:** Visual ideation and scene development
+### Visual world
 
-**Prompt sketch**
+**Status:** Open Question
 
-```text
-Build a restrained exploratory environment around a coastal relay station.
+**Idea:** Should environmental states follow real time or real weather?
 
-Use environmental storytelling rather than exposition.
+---
 
-Establish a visual path:
-station → traveler → causeway → distant structure
+### Visual world
 
-The distant object should create curiosity without explaining itself.
+**Status:** Open Question
 
-Avoid fantasy spectacle, game UI, and decorative clutter.
-```
+**Idea:** Should some environmental variation be authored, probabilistic, or a mixture of both?
 
-The useful result was not simply an image concept. It was discovering that a distant object could perform the same job that a conventional website might give to a giant call-to-action button.
+---
 
+### Visual world
 
-### 2026-08-18 | Exploration over explanation
+**Status:** Open Question
 
-**Status:** Principle  
-**Areas:** World, Interaction, Process  
-**Tags:** `principles`, `restraint`, `discovery`
+**Idea:** Does a tide state need to correspond to anything real?
 
-Several ideas are starting to converge into a set of principles.
+---
 
-**Exploration over explanation.**
+### Visual world
 
-**Curiosity over spectacle.**
+**Status:** Open Question
 
-**World-building over decoration.**
+**Idea:** How much variation is enough to create memory without making the portfolio feel inconsistent?
 
-**Evidence over marketing.**
+---
 
-**Discovery over gamification.**
+### Audio
 
-**Restraint over density.**
+**Status:** Exploration
 
-I do not want the portfolio to announce how imaginative it is. I would rather give someone enough evidence to become curious and then get out of the way.
+**Idea:** Favor sparse diegetic sound over a continuous soundtrack: wind, water against stone, a chime, or a mechanical noise somewhere beyond the visible scene.
 
-The same rule applies to the work itself. The strange little world surrounding the portfolio cannot become an excuse to avoid showing research, prototypes, writing, process, and outcomes. If anything, the world should make someone more interested in seeing the evidence.
+---
 
-This is also a useful check against feature creep. Just because something could react, move, make noise, reveal a tooltip, or become interactive does not mean it should.
+### Audio
 
+**Status:** Exploration
 
-### 2026-08-19 | A small 2D world
+**Idea:** Sound should be allowed to disappear. Silence matters, and making every object emit a sound when the pointer approaches would turn the world into an interface demonstration.
 
-**Status:** Direction  
-**Areas:** World, Visual Language, Interaction  
-**Tags:** `2d`, `layers`, `diorama`, `world`
+---
 
-The world is becoming more specific.
+### Audio
 
-I am not imagining a 3D environment or a miniature videogame running inside the browser. The thing in my head is much closer to an authored 2D layered scene.
+**Status:** Exploration
 
-Diorama is probably a useful word.
+**Idea:** Let sounds live on different clocks, including sounds without an obvious visible cause. A small amount of unexplained audio may imply a much larger world.
 
-There may be foreground, middle ground, and distant elements. Water. Structures. People. Mechanical objects. Light. Fog. Small movements occurring at different depths.
+---
 
-*Machinarium* remains useful as a reference, but not because I want to reproduce its drawing style. What interests me is the feeling that the environment itself carries information and that objects seem to belong where they are.
+### Asset production
 
-*Darkest Dungeon* is interesting for a different reason. Its staging and transitions can feel theatrical without requiring everything on screen to move continuously.
+**Status:** Direction
 
-The emerging visual language seems to sit somewhere around illustrated adventure, theatrical staging, and a physical diorama.
+**Idea:** Use AI heavily for visual ideation while progressively taking more control over the final assets. Generated images can reveal possibilities quickly, but the generator's defaults should not become the portfolio's visual identity.
 
-That is still a wide territory. Good. I do not want to collapse it into a style guide yet.
+---
 
+### Asset production
 
-### 2026-08-19 | Alive, not animated
+**Status:** Experiment
 
-**Status:** Principle  
-**Areas:** Motion, World, Interaction  
-**Tags:** `motion`, `stillness`, `attention`
+**Idea:** Use access to Google AI Pro through November to push visual exploration, with Gemini generating possibilities, ChatGPT developing prompts, questioning concepts, and finding principles among the references, and other tools joining as useful. Look for spatial relationships, environmental storytelling, unusual mechanical objects, restrained theatrical staging, and places that provoke curiosity, without treating generated imagery as production-ready.
 
-This may be the most useful motion principle so far:
+---
 
-**Alive, not animated.**
+### Process
 
-I do not want to fill the scene with looping movement just to demonstrate that the website can move.
+**Status:** Exploration
 
-Stillness should be the default state.
+**Idea:** Track how the relationship with AI systems changes as the project develops. Prompts may become shorter or more specific, and generated material may recede as the visual vocabulary becomes clearer. That evolution is part of the project too.
 
-Motion is an event.
+---
 
-A flag might change its silhouette. A page might lift slightly. A chime might swing and produce a note. Water might shift between a small number of states. A crab might appear and later disappear.
+## Tuesday, August 18, 2026
 
-A distant wheel could take two minutes to complete a revolution.
+### Visual world
 
-Fog could move slowly enough that it is difficult to tell whether it moved at all.
+**Status:** Exploration
 
-That last part interests me.
+**Idea:** What if the portfolio feels like a small place someone enters and explores rather than a stack of pages? The world would surround the work without becoming the work itself.
 
-There is something much more convincing about a place where you occasionally think, "Wait. Did that just move?" than a place where six objects begin looping the moment the page loads.
+---
 
-This also changes interaction design. The visitor should not be trained to frantically mouse over everything looking for animations. Attention itself can be rewarded.
+### Content
 
+**Status:** Exploration
 
-### 2026-08-19 | Different things live on different clocks
+**Idea:** Keep the portfolio underneath the world intact: case studies, research, writing, prototypes, and evidence cannot disappear. The surrounding world should make someone more interested in seeing that material, not become an excuse to avoid it.
 
-**Status:** Principle  
-**Areas:** Motion, Environment, Sound  
-**Tags:** `timing`, `motion`, `sound`, `environment`
+---
 
-The "alive, not animated" idea leads to another one: **different things should live on different clocks.**
+### Interaction
 
-The water does not care when the character moves.
+**Status:** Exploration
 
-The wheel does not need to turn because someone hovered over it.
+**Idea:** Borrow the psychology of moving through a game world without turning the portfolio into a game: arrive, orient yourself, notice something in the distance, wonder what it is, and choose to investigate.
 
-A chime may respond to wind, not to the visitor.
+---
 
-Fog might take minutes to noticeably change.
+### Interaction
 
-A small creature could appear once and then not appear again during the visit.
+**Status:** Exploration
 
-Some things might happen every time. Some might happen occasionally. Some might be slow enough that a person never sees the complete event.
+**Idea:** The world is not the content. It is a way of encountering the content.
 
-This is closer to how places behave.
+---
 
-It also opens an interesting design problem. Web animation usually tries very hard to make sure the visitor sees the animation. I may want to do almost the opposite.
+### Navigation
 
-**Open question:** How much can someone miss before subtlety becomes invisibility?
+**Status:** Open Question
 
+**Idea:** How far can exploration go before visitors have to work too hard to find the actual work?
 
-### 2026-08-19 | Not everything happens every time
+---
 
-**Status:** Exploration  
-**Areas:** Motion, Environment, Interaction  
-**Tags:** `variation`, `repeat-visits`, `weather`, `time`
+### Navigation
 
-I am increasingly interested in the idea that two visits do not have to be identical.
+**Status:** Exploration
 
-Morning and evening are obvious possibilities. Weather is another. Water or tide state could change. Fog might be present sometimes and absent at others.
+**Idea:** Use a map as a navigation idea because it places destinations in relationship to one another. A menu says there are six things to click; a map says those places are somewhere, which may be enough to create curiosity.
 
-Sound can participate too. Wind, water, a mechanical noise somewhere in the distance, an occasional chime.
+---
 
-I do not want this to become a simulation system for its own sake. Nobody needs a portfolio with a lovingly modeled barometric pressure system.
+### Navigation
 
-The useful question is whether environmental variation makes the place feel as though it exists when the visitor is not looking at it.
+**Status:** Reference
 
-That could also reward repeat visits without resorting to collectibles or other explicit game mechanics.
+**Idea:** Game maps from *The Witcher 3* and *Assassin's Creed*, along with the hand-drawn Middle-earth maps associated with Christopher Tolkien, are useful references for distance, location, orientation, paths, and partial revelation. They are inspiration for navigation, not a fantasy costume to copy.
 
-**Open questions:**
+---
 
-- Should environmental states follow real time or weather?
-- Should some variation simply be authored or probabilistic?
-- Does a tide need to correspond to anything real?
-- How much variation is enough to create memory without creating inconsistency?
+### Navigation
 
+**Status:** Exploration
 
-### 2026-08-19 | Sound should be allowed to disappear
+**Idea:** Keep conventional navigation even if a map becomes part of the experience. Case studies should not become difficult to find because cartography is interesting.
 
-**Status:** Exploration  
-**Areas:** Sound, Environment, Motion  
-**Tags:** `audio`, `silence`, `diegetic`
+---
 
-If motion is sparse, sound probably needs the same discipline.
+### Navigation
 
-I am more interested in diegetic sound than in a continuous soundtrack. Wind. Water against stone. A chime. Something mechanical moving farther away than the visible scene suggests.
+**Status:** Open Question
 
-Silence matters here.
+**Idea:** Should the map be the main navigation device or a secondary one?
 
-If every object emits a carefully designed sound whenever the pointer comes near it, the world stops being a place and starts behaving like an interface demonstration.
+---
 
-Different sounds can live on different clocks too. A sound does not necessarily need a visible cause.
+### Navigation
 
-That could do a surprising amount of world-building with very little material.
+**Status:** Open Question
 
+**Idea:** Should the map represent a real geography inside the portfolio world?
 
-### 2026-08-19 | AI for exploration, authorship for the final thing
+---
 
-**Status:** Direction  
-**Areas:** Asset Creation, Process, Visual Language  
-**Tags:** `ai`, `gemini`, `authorship`, `assets`
+### Navigation
 
-I have access to Google AI Pro through November, which makes this a useful moment to push visual exploration hard.
+**Status:** Open Question
 
-Gemini can help me see possibilities quickly. ChatGPT can help develop prompts, question the concept, and pull principles out of a pile of references. Other tools will probably enter the process too.
+**Idea:** Could the map appear only at certain moments, perhaps during a transition or when the visitor needs orientation?
 
-I do not think that means the final portfolio should simply become a collection of generated images.
+---
 
-There is a difference between using AI to discover what I might want to make and allowing the generator's defaults to become the visual identity of the work.
+### Navigation
 
-For now, I want AI heavily involved in ideation while I progressively take more control over the final assets.
+**Status:** Open Question
 
-That balance may change as I learn what the world actually requires.
+**Idea:** How much information should the map reveal before exploration turns back into a menu?
 
-#### AI process note
+---
 
-**Role:** Visual exploration and prompt development
+### Character
 
-**Prompt sketch**
+**Status:** Exploration
 
-```text
-Generate variations to discover the visual world, not to finalize it.
+**Idea:** Suggest old RPG archetypes such as mage, fighter, priest, or rogue without building literal fantasy characters. A silhouette and one object, perhaps a staff or sword, may be enough for recognition while remaining unobtrusive to anyone who misses the reference.
 
-Look for:
-- spatial relationships
-- environmental storytelling
-- unusual mechanical objects
-- restrained theatrical staging
-- places that provoke curiosity
+---
 
-Avoid treating generated imagery as automatically production-ready.
-```
+### Character
 
-One thing I want this record to capture over time is whether my relationship to these systems changes. I suspect it will. The prompts may get shorter. I may become more specific. I may use generated material less as my own visual vocabulary becomes clearer.
+**Status:** Exploration
 
-That evolution is part of the project too.
+**Idea:** Recognition can happen through one small cue rather than a pile of explanation. This principle may remain useful even if the RPG character idea proves unnecessary.
+
+---
+
+### Visual world
+
+**Status:** Reference
+
+**Idea:** The Low-Tide Signal Station & Causeway is an early reference and test environment, not a locked homepage design: a small stone-and-timber station on a coastal terrace or spit, an acoustic or optical apparatus with counterweights and suspended copper cones that may lower toward or into the water, a traveler carrying something like a surveyor's staff, a stone causeway, a restrained orange marker, and a distant skeletal scaffold or wheel.
+
+---
+
+### Visual world
+
+**Status:** Exploration
+
+**Idea:** Test a spatial sequence of station, traveler, causeway, and distant structure. Its value may lie in the implied purpose and the question "What is over there?" even if the signal station itself later disappears.
+
+---
+
+### Visual world
+
+**Status:** Exploration
+
+**Idea:** Leave the station, traveler, and distant structure partly unexplained for now. Defining what each object is, what it measures, or why it exists too quickly may remove the ambiguity that makes the place interesting.
+
+---
+
+### Asset production
+
+**Status:** Experiment
+
+**Idea:** Develop the coastal relay scene through visual ideation and environmental storytelling, using the station, traveler, causeway, and distant structure as a path. Avoid fantasy spectacle, game UI, and decorative clutter while testing whether the distant object creates curiosity without explaining itself.
+
+---
+
+### Navigation
+
+**Status:** Exploration
+
+**Idea:** A distant object may perform the same practical role as a large call-to-action button while feeling like part of the world rather than an instruction layered on top of it.
+
+---
+
+### Process
+
+**Status:** Principle
+
+**Idea:** Favor exploration over explanation. Give visitors enough to investigate without explaining every object or relationship before curiosity has a chance to form.
+
+---
+
+### Visual world
+
+**Status:** Principle
+
+**Idea:** Favor curiosity over spectacle. The portfolio should not announce how imaginative it is; it should provide enough evidence for someone to become curious, then get out of the way.
+
+---
+
+### Visual world
+
+**Status:** Principle
+
+**Idea:** Favor world-building over decoration. Objects and details should imply a coherent place rather than act as ornamental proof of a visual theme.
+
+---
+
+### Content
+
+**Status:** Principle
+
+**Idea:** Favor evidence over marketing. Research, prototypes, writing, process, and outcomes should remain more important than claims about the work.
+
+---
+
+### Interaction
+
+**Status:** Principle
+
+**Idea:** Favor discovery over gamification. Curiosity and exploration do not require quests, achievements, inventories, experience points, collectibles, or a heads-up display.
+
+---
+
+### Process
+
+**Status:** Principle
+
+**Idea:** Favor restraint over density. The fact that something could react, move, make noise, reveal a tooltip, or become interactive is not enough reason to add it.

@@ -79,21 +79,23 @@ In particular:
 
 The diary may eventually be public. Write clearly enough that an outside reader can understand what happened, but do not sanitize the work into a retrospective success story.
 
-## Entry heading
+## Date and entry headings
 
-Every entry begins:
+Each calendar date appears once as a level-two heading:
 
-```markdown
-### YYYY-MM-DD | Short descriptive title
-```
+## YYYY-MM-DD
 
 Use ISO dates.
 
-For historical backfill, use the date when the work actually occurred when that can be established with reasonable confidence.
+All date sections are maintained in reverse chronological order, newest to oldest.
 
-If exact dating cannot be established, do not invent precision.
+Each distinct theme, idea, experiment, decision, or other meaningful item from that date appears beneath the date as a level-three heading:
 
-Do not include times unless a time is genuinely relevant to the event.
+### Short descriptive title
+- A single date may contain multiple entries. Do not repeat the date in individual entry headings.
+- For historical backfill, use the date when the work actually occurred when that can be established with reasonable confidence.
+- If exact dating cannot be established, do not invent precision.
+- Do not include times unless a time is genuinely relevant to the event.
 
 ## Required metadata
 
