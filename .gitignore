@@ -1,0 +1,38 @@
+# DENY BY DEFAULT
+*
+
+# Repository controls
+!.gitignore
+!.env.example
+
+# Approved canonical portfolio documentation
+!AGENTS.md
+!portfolio-change-log.md
+!portfolio-ideation-log.md
+!portfolio-production-log-instructions.md
+!portfolio-production-log.md
+
+# Approved tooling
+!tools/
+!tools/**
+
+# Approved tests
+!tests/
+!tests/**
+
+# Approved generated artifact only
+!generated/
+generated/*
+!generated/portfolio-ideation.json
+
+# Secrets are NEVER tracked
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.pyc
+
+# Local diagnostics
+tools/notion-error.txt
