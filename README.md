@@ -46,11 +46,6 @@ They are not made directly in Notion.
 
 # Repository Structure
 
-## `AGENTS.md`
-
-Project-level operating instructions for AI agents and other automated collaborators working in this repository. This file defines relevant conventions, constraints, and expectations for automated work. Agents should read and follow it before changing repository content.
-
----
 
 ## `portfolio-ideation-log.md`
 
