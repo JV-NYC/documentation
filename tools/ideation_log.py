@@ -56,6 +56,7 @@ ID_COMMENT_MENTION_PATTERN = re.compile(r"idea-id:")
 DATE_HEADING_PATTERN = re.compile(r"^##(?!#)\s+(?P<value>.*?)\s*$")
 THEME_HEADING_PATTERN = re.compile(r"^###(?!#)\s+(?P<value>.*?)\s*$")
 BOLD_LINE_PATTERN = re.compile(r"^\*\*(?P<value>.*?)\*\*\s*$")
+RIGHTS_AND_REUSE_SECTION = "Rights And Reuse"
 
 
 @dataclass(frozen=True)
@@ -137,7 +138,7 @@ def _finish_record(current: RawIdea | None, records: list[RawIdea]) -> None:
 
 def _is_canonical_title_line(line: str) -> bool:
     match = BOLD_LINE_PATTERN.match(line)
-    return match is not None and " — " in match.group("value")
+    return match is not None and ": " in match.group("value")
 
 
 def parse_ideation_log(text: str) -> ParsedLog:
@@ -149,8 +150,28 @@ def parse_ideation_log(text: str) -> ParsedLog:
     current_date_line: int | None = None
     current_theme: str | None = None
     current_theme_line: int | None = None
+    in_non_record_footer = False
 
-    for line_number, line in enumerate(text.splitlines(), start=1):
+    lines = text.splitlines()
+    for line_number, line in enumerate(lines, start=1):
+        if line.strip() == "---" and next(
+            (following.strip() for following in lines[line_number:] if following.strip()),
+            None,
+        ) == RIGHTS_AND_REUSE_SECTION:
+            _finish_record(current, records)
+            current = None
+            in_non_record_footer = True
+            continue
+
+        if line.strip() == RIGHTS_AND_REUSE_SECTION:
+            _finish_record(current, records)
+            current = None
+            in_non_record_footer = True
+            continue
+
+        if in_non_record_footer:
+            continue
+
         date_match = DATE_HEADING_PATTERN.match(line)
         theme_match = THEME_HEADING_PATTERN.match(line)
         id_match = ID_COMMENT_PATTERN.match(line)
@@ -182,7 +203,7 @@ def parse_ideation_log(text: str) -> ParsedLog:
                 issues.append(
                     Issue(
                         line_number,
-                        "multiple idea-id comments appear before the prior idea has a Status — Title heading",
+                        "multiple idea-id comments appear before the prior idea has a Status: Title heading",
                     )
                 )
             _finish_record(current, records)
@@ -208,7 +229,7 @@ def parse_ideation_log(text: str) -> ParsedLog:
             current.heading_text = bold_match.group("value") if bold_match else None
             if bold_match is None:
                 issues.append(
-                    Issue(line_number, "expected a bold Status — Title heading after idea-id")
+                    Issue(line_number, "expected a bold Status: Title heading after idea-id")
                 )
             continue
 
@@ -237,20 +258,20 @@ def parse_ideation_log(text: str) -> ParsedLog:
 def _parse_status_and_title(record: RawIdea, issues: list[Issue]) -> tuple[str | None, str | None]:
     if record.heading_text is None:
         return None, None
-    if " — " not in record.heading_text:
+    if ": " not in record.heading_text:
         issues.append(
             Issue(
                 record.heading_line or record.id_line or 1,
-                "Status — Title heading must contain a ' — ' separator",
+                "Status: Title heading must contain a ': ' separator",
             )
         )
         return None, None
-    status, title = record.heading_text.split(" — ", 1)
+    status, title = record.heading_text.split(": ", 1)
     if not status or not title:
         issues.append(
             Issue(
                 record.heading_line or record.id_line or 1,
-                "Status — Title heading must include both a status and a title",
+                "Status: Title heading must include both a status and a title",
             )
         )
         return None, None
@@ -329,7 +350,7 @@ def validate_parsed_log(parsed: ParsedLog) -> ValidationSummary:
             issues.append(
                 Issue(
                     record.id_line,
-                    "idea-id must be followed by one blank line and then its Status — Title heading",
+                    "idea-id must be followed by one blank line and then its Status: Title heading",
                 )
             )
 

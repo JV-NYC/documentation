@@ -68,7 +68,7 @@ Entries are organized as:
 Date
     Theme
         Idea ID
-        Status — Title
+        Status: Title
         Body
 ```
 
@@ -81,7 +81,7 @@ Example:
 
 <!-- idea-id: 20260819-000001 -->
 
-**Principle — Alive, not animated**
+**Principle: Alive, not animated**
 
 Alive, not animated. Stillness should be the default state...
 ```
